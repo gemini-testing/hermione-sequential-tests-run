@@ -1,0 +1,33 @@
+{
+  "name": "hermione-sequential-tests-run",
+  "version": "0.0.1",
+  "description": "Plugin for hermione to run selected tests in sequence",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemini-testing/hermione-sequential-tests-run.git"
+  },
+  "keywords": [
+    "hermione",
+    "plugin",
+    "sequential"
+  ],
+  "author": "Dmitriy Dudkevich <dudkevich@yandex-team.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemini-testing/hermione-sequential-tests-run/issues"
+  },
+  "homepage": "https://github.com/gemini-testing/hermione-sequential-tests-run#readme",
+  "dependencies": {
+    "gemini-configparser": "^1.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-gemini-testing": "^3.0.0"
+  }
+}
